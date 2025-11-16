@@ -23,16 +23,3 @@ x1 [B10K Potentiometer](https://a.co/d/foRXb5b) \
 x3 [Push Buttons](https://a.co/d/foRXb5b) \
 x10 [Female to Male Dupont Wire](https://www.digikey.com/en/products/detail/adafruit-industries-llc/512/7056915?) \
 x65 [Breadboard Jumper Wire Set](https://www.digikey.com/en/products/detail/adafruit-industries-llc/512/7056915?) \
-
-
-Journal
-
-| Challenge | Solution |
-|----------|----------|
-| Arduino being unable to play music | Integrate loopMIDI & Hairless MIDI |
-| Button not working | Ensure all jumper wires are firmly connected |
-| Ultrasensor not receiving power | Do **NOT** connect 5V & GND when switching orientation |
-| Buttons placed incorrectly | Place buttons along the breadboard gap |
-| FL Studio only taking in one remote control input | Delay initiation of the other control that is overriding it (comment out code when linking controller) |
-| System being overridden with signals | Create `lastJoy` & `lastUltra` variables so signals send only when values change |
-
