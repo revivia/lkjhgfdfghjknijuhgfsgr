@@ -1,0 +1,11 @@
+
+Journal
+
+| Challenge | Solution |
+|----------|----------|
+| Arduino being unable to play music | Integrate loopMIDI & Hairless MIDI |
+| Button not working | Ensure all jumper wires are firmly connected |
+| Ultrasensor not receiving power | Do **NOT** connect 5V & GND when switching orientation |
+| Buttons placed incorrectly | Place buttons along the breadboard gap |
+| FL Studio only taking in one remote control input | Delay initiation of the other control that is overriding it (comment out code when linking controller) |
+| System being overridden with signals | Create `lastJoy` & `lastUltra` variables so signals send only when values change |
